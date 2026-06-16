@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../train/images
+test: ../test/images
+
+nc: 1
+names: ['people']
+
+roboflow:
+  workspace: mahmut-yapici
+  project: mahmut-yapici
+  version: dataset
+  license: Private
+  url: https://app.roboflow.com/mahmut-yapici/mahmut-yapici/dataset
